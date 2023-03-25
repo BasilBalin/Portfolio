@@ -14,7 +14,7 @@
 * numpy
 * seaborn
 * matplotlib.pyplot
-* scipy
+* scipy.stats
 * datetime
 * plotly
 * math
