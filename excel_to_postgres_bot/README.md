@@ -29,7 +29,7 @@ Telegram-бот для автоматизации сбора и обработк
 1.  **Скопируйте файлы проекта:**
     ```bash
     # Основной код
-    git clone <your-repo-url>
+    git clone https://github.com/BasilBalin/Portfolio.git
     cd excel_to_postgres_bot
     ```
 
