@@ -68,20 +68,20 @@ Telegram-бот для автоматизации сбора и обработк
 ```
 excel_to_postgres_bot/
 ├── code/                          # Основная директория с кодом
-+│   ├── main.py                    # Главный скрипт бота
+│   ├── main.py                    # Главный скрипт бота
 │   ├── my_constants_2.py          # Файл с константами проекта
 │   ├── sql_user_info.txt          # Данные для подключения к БД
-4│   └── *.ipynb                    # Jupyter-ноутбуки для разработки и анализа
+│   └── *.ipynb                    # Jupyter-ноутбуки для разработки и анализа
 ├── ci/
 │   └── ci_mhcd.txt                # confidential info (bot token)
 ├── tables/                        # Директория для таблиц
-+│   └── tables_info.xlsx           # Excel для словаря таблиц, масок файлов и имён датафреймов
+│   └── tables_info.xlsx           # Excel для словаря таблиц, масок файлов и имён датафреймов
 ├── temp/                          # Временные файлы
 ├── results/                       # Результаты обработки
-+├── run_bot_win.bat                # Bat-файл для автоматического запуска
-+├── .gitignore                     # Git ignore правила
-+├── README.md
-+└── LICENSE
+├── run_bot_win.bat                # Bat-файл для автоматического запуска
+├── .gitignore                     # Git ignore правила
+├── README.md
+└── LICENSE
 ```
 
 2. Каталог `Documents` вашего пользователя (имя пользователя также на латинице)
